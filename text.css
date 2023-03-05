@@ -1,0 +1,190 @@
+body{
+    background-color:hsl(225, 100%, 94%);
+    min-height: 100px;
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.creati
+{
+    background-color: white;
+    margin: auto;
+    width: 380px;
+    height: 560px;
+    border-radius: 20px;
+    margin-top: 50px;
+        
+      
+}
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+}
+.gm{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.su{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.vsi{
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    border-radius: 10px;
+}
+
+.vv{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.item2{
+    margin-left: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+}
+.item3{
+    margin-left: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: grey;
+}
+.ss{
+    margin-top: 8px;
+}
+.mg{
+    width: 40px;
+}
+.item1{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.item4{
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.sun:hover{
+    color: hsl(245, 75%, 52%);
+}
+
+a.newone{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px 0;
+    border: 10px;
+    margin: 30px;
+    margin-top: 0px;
+    width: 78%;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.newone:hover{
+
+    opacity: 50%;
+    cursor: pointer;
+    
+}
+a.vg{
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 16x;
+    color: grey;
+
+}
+.vg:hover{
+    color: black;
+}
+.sun{
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media only screen and ( max-width:375px) {
+    html{
+        font-size: 50%;
+    }
+    .creati{
+        position: relative;
+        top: 50%;
+        width: 80%;
+        height: 70vh;
+     }
+     .gm{
+            width: 100%;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+     }
+    
+     h1{
+        font-size: 19px; 
+     }
+     .su{
+        font-size: 14px;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+    .vsi{
+        width: 90%;
+    }
+    .item1{
+        position: relative;
+        bottom: 16%;
+        right: 5%;
+    }
+    .item2{
+        font-size: 12px ;
+        margin-left: 13%;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: bold;
+    }
+    .item3
+    {
+        font-size: 12px;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: bold;
+        color: grey;
+        margin-right: 50%;
+        margin-left: 14px;
+    }
+    .sun{
+        font-size: 13px;
+        margin-right: 60%;
+    }
+    .item4{
+        position: relative;
+        right: 5%;
+        bottom: 5%;
+    }
+    .ss{
+        margin-right: 0px;
+        margin-top: 3px;
+    }
+    a.vg{
+        font-size: 12px;
+        color: grey;
+        
+    }
+    .vg:hover{
+        color: black;
+    }
+    
+}
